@@ -52,10 +52,16 @@ li{
     list-style: none;
     font-weight: 400;
 }
-a{
+.nav-links a{
     color: white;
     text-decoration: none;
 }
+.nav-links a:hover{
+    background-color: #3d0a0d;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+
 .logo{
     font-size: 1.8rem;
     font-weight: 600;
@@ -97,6 +103,11 @@ a{
     border-radius: 0.5rem;
     margin-top: 0.5rem;
     box-shadow: 3px 4px 8px rgba(0,0,0,0.3);
+    font-weight: 500;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(212, 209, 209);
 }
 
 /* Services */
